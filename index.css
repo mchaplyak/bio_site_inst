@@ -11,6 +11,12 @@ body {
     backdrop-filter: blur(2px);
 }
 
+main {
+    position: relative;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
 header {
     margin-top: 1em;
     text-align: center;
